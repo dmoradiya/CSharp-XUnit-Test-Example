@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using OOP_Shape.Shapes;
+using XUnit_Example.Shapes;
 
-namespace OOP_Shape
+namespace XUnit_Example
 {
     class Drawing
     {
         // Pillar: Polymorphism
-        private List<Shape> Shapes { get; set; }
+        public List<Shape> Shapes { get; set; }
 
         public double SpaceCovered => Shapes.Select(x => x.Area).Sum();
 

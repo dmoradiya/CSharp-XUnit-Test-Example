@@ -1,7 +1,7 @@
 ﻿using System;
-using OOP_Shape.Shapes;
+using XUnit_Example.Shapes;
 
-namespace OOP_Shape
+namespace XUnit_Example
 {
     class Program
     {

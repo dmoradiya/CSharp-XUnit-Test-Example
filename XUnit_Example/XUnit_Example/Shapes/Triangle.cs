@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace OOP_Shape.Shapes
+namespace XUnit_Example.Shapes
 {
     class Triangle : Shape
     {
